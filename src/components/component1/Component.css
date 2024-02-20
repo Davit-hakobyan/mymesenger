@@ -1,0 +1,34 @@
+.glxav{
+    display: flex;
+}
+.glxav_1{
+    background-color: chartreuse;
+     width: 20%;
+}
+.glxav_1>p{
+   
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(88, 165, 12);
+}
+.glxav_1>p:hover{
+    cursor: pointer;
+    background-color: rgb(42, 70, 14);
+}
+.glxav_2{
+    border: 2px solid red;
+    width: 80%;
+    min-height: 400px;
+}
+.DuGalBut{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(219, 7, 7);
+    width: 100px;
+    height: 30px;
+}
+.DuGalBut:hover{
+    background-color: rgb(224, 73, 73);
+
+}

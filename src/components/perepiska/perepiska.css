@@ -1,0 +1,56 @@
+.red {
+  font-size: 20px;
+  margin: 8px;
+
+  padding-right: 50px;
+
+  display: flex;
+  justify-content: end;
+
+  color: rgb(17, 4, 126);
+}
+.red > b {
+  border-radius: 50px;
+  background-color: rgb(14, 174, 223);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.grin {
+  font-size: 20px;
+  color: green;
+  margin: 8px;
+
+  padding-left: 50px;
+  display: flex;
+}
+.grin > b {
+  border-radius: 50px;
+  background-color: rgb(128, 238, 113);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+.messDilet {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  font-weight: 300;
+}
+.messDilet:hover{
+  background-color: rgb(218, 63, 63);
+}
+.textpoxel{
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(9, 51, 11);
+  border: none;
+  border-radius: 50%;
+  font-weight: 300;
+}

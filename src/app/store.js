@@ -1,8 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import mesenjerReducer from "./counterSlicemy";
+import loginMutqSlice from "./logintvjalSlicemy";
+import mesijbaza from "./mesijBazajic";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    users: mesenjerReducer,
+    loginMutq: loginMutqSlice,
+    baza: mesijbaza,
   },
 });

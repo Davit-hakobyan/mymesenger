@@ -1,0 +1,10 @@
+.heder{
+    width: 100%;
+    background-color: aqua;
+    color: blue;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

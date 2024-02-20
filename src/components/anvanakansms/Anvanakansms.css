@@ -1,0 +1,27 @@
+.stacox {
+  color: green;
+  text-align: left;
+}
+.perepiska {
+  border: 1px solid rgb(80, 74, 74);
+  width: 100%;
+  min-height: 275px;
+  max-height: 275px;
+  overflow:auto;
+  
+}
+.input_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+
+  justify-content: center;
+}
+.input {
+  width: 45%;
+  height: 25px;
+}
+.inputbut {
+  height: 30px;
+}
